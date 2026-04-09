@@ -1,4 +1,7 @@
-# Privacy Policy — Accessibility Widget
+---
+layout: default
+title: Privacy Policy — Accessibility Widget
+---# Privacy Policy — Accessibility Widget
 
 _Last updated: April 2026_
 
