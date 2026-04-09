@@ -1,4 +1,7 @@
-# Terms of Service — Accessibility Widget
+---
+layout: default
+title: Terms of Service — Accessibility Widget
+---# Terms of Service — Accessibility Widget
 
 _Last updated: April 2026_
 
