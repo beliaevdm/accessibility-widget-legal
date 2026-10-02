@@ -43,6 +43,8 @@ price stored is calculated by the app's server from the site owner's settings.
 **Contacts:** the app adds the visitor's name, email address and phone number to the site
 owner's Wix Contacts so the request appears with the owner's other customers.
 
+**Copy of the estimate (optional):** if the site owner turns this on for a calculator, the visitor's email address, name and the estimate are sent to Wix's email service to deliver a one-time copy of the estimate to the visitor. The email is a transactional message about the visitor's own request; replies go to the site owner.
+
 **Notifications and webhooks:** a notification containing the visitor's name, the quoted
 total and the calculator name is sent to the site owner's Wix dashboard and the Wix Owner
 app. If the site owner (on the paid plan) enters a webhook address, each request is also
