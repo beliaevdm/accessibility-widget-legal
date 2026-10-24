@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Terms of Service — Before & After Slider
+title: Terms of Service — Before & After Photo Compare
 ---
 
-# Terms of Service — Before & After Slider
+# Terms of Service — Before & After Photo Compare
 
 _Last updated: October 2026_
 
@@ -11,13 +11,13 @@ _Last updated: October 2026_
 
 ## 1. Acceptance of Terms
 
-By installing or using the Before & After Slider app ("the App") from the Wix App Market, you ("Site Owner") agree to these Terms of Service. If you do not agree, do not install the App.
+By installing or using the Before & After Photo Compare app ("the App") from the Wix App Market, you ("Site Owner") agree to these Terms of Service. If you do not agree, do not install the App.
 
 ---
 
 ## 2. Description of Service
 
-Before & After Slider is a Wix App Market application that lets you show two photos of the same subject — before and after — in an interactive slider on your Wix website, and galleries of several such pairs. Some features are available only under a paid subscription.
+Before & After Photo Compare is a Wix App Market application that lets you show two photos of the same subject — before and after — in an interactive slider on your Wix website, and galleries of several such pairs. Some features are available only under a paid subscription.
 
 ---
 
@@ -47,7 +47,7 @@ You may not reverse engineer, decompile, or attempt to extract the source code o
 
 ## 6. Free and Paid Plans
 
-**Free plan:** up to 3 live comparisons (any number of drafts), each showing one before/after pair, with every shape, direction, handle, label, colour, border and shadow setting. A small "Made with Before & After Slider" line is shown under the widget.
+**Free plan:** up to 3 live comparisons (any number of drafts), each showing one before/after pair, with every shape, direction, handle, label, colour, border and shadow setting. A small "Made with Before & After Photo Compare" line is shown under the widget.
 
 **Premium plan:** unlimited live comparisons, galleries of up to 24 pairs, a slider that follows the mouse, label fonts, and removal of the "Made with" line. Payments are processed by Wix through the Wix Billing System. Subscriptions renew automatically unless cancelled. Returning to the Free plan deletes nothing: comparisons and settings are kept, and Premium parts are simply not shown.
 

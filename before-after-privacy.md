@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Privacy Policy — Before & After Slider
+title: Privacy Policy — Before & After Photo Compare
 ---
 
-# Privacy Policy — Before & After Slider
+# Privacy Policy — Before & After Photo Compare
 
 _Last updated: October 2026_
 
@@ -11,7 +11,7 @@ _Last updated: October 2026_
 
 ## 1. Who We Are
 
-This Privacy Policy describes how the Before & After Slider app ("we", "our", "the app") handles information when it is installed on a Wix website. The app is developed and operated by an independent developer and is distributed through the Wix App Market.
+This Privacy Policy describes how the Before & After Photo Compare app ("we", "our", "the app") handles information when it is installed on a Wix website. The app is developed and operated by an independent developer and is distributed through the Wix App Market.
 
 Contact: bieliaiev.d@gmail.com
 
