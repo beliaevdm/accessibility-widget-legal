@@ -1,19 +1,23 @@
 ---
-layout: default
-title: Privacy Policies — Apps by Dmytro Bieliaiev
+layout: privacy
+hub: true
+title: "Privacy Policy — all apps by Dmytro Bieliaiev"
+updated: 31 October 2026
+changes:
+  - "31 October 2026 — first version: the general policy for all our apps, with links to what each app handles."
 ---
+## 3–6. What each app handles
 
-# Privacy Policies — Apps by Dmytro Bieliaiev
-
-Each app has its own privacy policy that describes exactly what data that app handles.
-Choose the app you use:
+Sections 1–2 and 7–15 of this page apply to every app. What a particular app processes, which browser storage it
+uses, which outside services it involves and how its data is deleted (sections 3–6) is described in that app's own
+policy:
 
 - [Accessibility Widget](privacy-policy)
-- [Polls & Surveys (Poll Maker)](polls-privacy)
+- [Poll Maker: Voting & Ratings](polls-privacy)
 - [Pricing & Comparison Tables](pricing-tables-privacy)
 - [Instant Quote Calculator](quote-privacy)
-- [Quiz Maker](quiz-privacy)
-- [Meme Maker](meme-privacy)
+- [Quiz Maker: Trivia Quizzes](quiz-privacy)
+- [Meme Maker: Meme Generator](meme-privacy)
 - [Launch Countdown Timer](countdown-privacy)
 - [Testimonials Wall & Slider](testimonials-privacy)
 - [Property Listings & Search](property-listings-privacy)
@@ -22,7 +26,3 @@ Choose the app you use:
 - [Editable QR Code Generator](qr-codes-privacy)
 - [Before & After Photo Compare](before-after-privacy)
 - [Seasonal Effects & Snow](seasonal-effects-privacy)
-
----
-
-Contact: bieliaiev.d@gmail.com

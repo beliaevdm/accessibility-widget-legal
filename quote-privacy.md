@@ -1,114 +1,47 @@
 ---
-layout: default
-title: Privacy Policy — Instant Quote Calculator
+layout: privacy
+title: "Privacy Policy — Instant Quote Calculator"
+app: "Instant Quote Calculator"
+updated: 31 October 2026
+changes:
+  - "31 October 2026 — added the events the calculator passes to the site's own Google Tag Manager, Google Analytics or Meta Pixel, which the previous text did not describe. Rewritten in the common format used for all our apps (roles, legal bases, rights, retention and how changes are announced)."
 ---
+## 3. Information the app processes
 
-# Privacy Policy — Instant Quote Calculator
+**Calculators (entered by the site owner):** fields, options, prices, formulas, texts, appearance settings and,
+optionally, a webhook address. Stored in the site's Wix collections.
 
-_Last updated: October 2026_
+**Quote requests (sent by visitors):** the name, email address, phone number and message the visitor typed (only the
+fields the site owner asks for), the answers they chose and the price breakdown, which the app's server calculates
+from the site owner's settings.
 
----
+**Contacts:** the app adds the visitor's name, email address and phone number to the site owner's Wix Contacts so the
+request appears with the owner's other customers.
 
-## 1. Who We Are
+**Copy of the estimate (only if the site owner turns it on):** the visitor's email address, name and estimate are
+passed to Wix's email service to send the visitor one copy of their own estimate; replies go to the site owner.
 
-This Privacy Policy describes how the Instant Quote Calculator app ("we", "our", "the app")
-handles information when it is installed on a Wix website. The app is developed and
-operated by an independent developer and is distributed through the Wix App Market.
+**Notifications and webhooks:** a notification with the visitor's name, the total and the calculator's name is sent
+to the site owner's Wix dashboard and Wix Owner app. If the site owner enters a webhook address, each request is
+also sent to that address; the site owner chooses that service and is responsible for it.
 
-Contact: bieliaiev.d@gmail.com
+**Usage counts:** anonymous counters per calculator and day (views, starts, prices shown, requests sent and the sum
+of quoted totals). They contain no personal data.
 
----
+## 4. Cookies and browser storage
 
-## 2. Roles
+The app **does not set any cookies**. In the visitor's browser it uses `sessionStorage` to keep a copy of the calculator for faster loading and
+to count a visit only once per session; it is cleared when the tab is closed. In the site owner's dashboard, `localStorage` remembers whether the sample content was already added and whether a short review request was already shown.
 
-The **site owner** who installs the app is the data controller for the calculators they
-create and for the requests they collect from their visitors. We act as a data processor,
-operating the app's backend on the site owner's behalf. All calculator and request data is
-stored in the site owner's own Wix Data collections on Wix infrastructure and is subject to
-[Wix's Privacy Policy](https://www.wix.com/about/privacy).
+## 5. Third-party services
 
----
+The app uses **no analytics, tracking or advertising services** of its own. If the site itself already uses Google Tag Manager, Google Analytics or a Meta Pixel, the calculator
+passes them events about its own use (started, price shown, request sent) inside the visitor's browser; it loads
+none of these services itself, and the site owner's settings for them apply. The optional webhook (section 3) sends
+data to the service the site owner chose.
 
-## 3. What Data the App Processes
+## 6. How long data is kept, and how to delete it
 
-**Calculator content (entered by the site owner):** field names, options, prices, formulas,
-texts, appearance settings and, on the paid plan, a webhook address. Stored in the site's
-Wix Data collections.
-
-**Quote requests (submitted by site visitors):** when a visitor sends a request, the app
-stores the name, email address, phone number and message the visitor typed (only the fields
-the site owner chose to ask for), the answers they selected, and the price breakdown. The
-price stored is calculated by the app's server from the site owner's settings.
-
-**Contacts:** the app adds the visitor's name, email address and phone number to the site
-owner's Wix Contacts so the request appears with the owner's other customers.
-
-**Copy of the estimate (optional):** if the site owner turns this on for a calculator, the visitor's email address, name and the estimate are sent to Wix's email service to deliver a one-time copy of the estimate to the visitor. The email is a transactional message about the visitor's own request; replies go to the site owner.
-
-**Notifications and webhooks:** a notification containing the visitor's name, the quoted
-total and the calculator name is sent to the site owner's Wix dashboard and the Wix Owner
-app. If the site owner (on the paid plan) enters a webhook address, each request is also
-sent to that address; the site owner is responsible for the service they choose.
-
-**Usage counts:** anonymous counters per calculator and day (visits, started, quote shown,
-requests sent, sum of quoted totals). They contain no personal data.
-
----
-
-## 4. Cookies and Local Storage
-
-The app **does not set any cookies**. In the visitor's browser it uses `sessionStorage` to
-remember that a calculator's usage counters were already reported in the current session
-and to keep a copy of the calculator's settings for faster loading. These values contain
-no personal data and are cleared when the browser tab is closed.
-
----
-
-## 5. Third-Party Services
-
-The app uses **no analytics, tracking or advertising services** of its own and makes no
-requests to third-party servers from visitors' browsers. The only third-party transfer is
-the optional webhook described above, which is configured by the site owner.
-
----
-
-## 6. Data Retention and Deletion
-
-Calculators, requests and usage counters persist in the site owner's Wix Data collections
-until the site owner deletes them or uninstalls the app. Deleting a calculator does not
-delete the requests it collected. Site owners can delete any request from the Requests
-tab of the app dashboard or in the Wix CMS.
-
----
-
-## 7. GDPR / CCPA
-
-Because the app stores visitor requests on the site owner's behalf, the **site owner** is
-responsible for having a lawful basis for that processing, for telling visitors in their own
-privacy policy that the details are collected, and for responding to data-subject requests,
-using the delete tools in the dashboard and in Wix. The app can show a consent checkbox
-with text chosen by the site owner. We do not use any of this data for our own purposes, do
-not sell it, and do not share it with third parties.
-
-If you believe your privacy has been affected by this app, contact the site owner first;
-you may also contact us at bieliaiev.d@gmail.com.
-
----
-
-## 8. Children's Privacy
-
-The app is not directed at children. Site owners should not use it to knowingly collect
-personal data from children under 13 (or the age of digital consent in their jurisdiction).
-
----
-
-## 9. Changes to This Policy
-
-We may update this Privacy Policy from time to time. The "Last updated" date above reflects
-the latest revision.
-
----
-
-## 10. Contact
-
-Email: bieliaiev.d@gmail.com
+Calculators, requests and counters stay in the site's Wix collections until the site owner deletes them. Requests
+can be deleted in the Requests tab of the app dashboard or in the site's CMS; deleting a calculator does not delete the
+requests it collected. Contacts added to Wix Contacts are managed there by the site owner.
