@@ -4,6 +4,7 @@ title: "Privacy Policy — Poll Maker: Voting & Ratings"
 app: "Poll Maker: Voting & Ratings"
 updated: 31 October 2026
 changes:
+  - "31 October 2026 — the vote hash is now made with a server-side secret key; before, it was an unkeyed hash of the network address and the poll's ID, which someone with access to the site's votes collection could match by trying every possible address."
   - "31 October 2026 — added members-only voting, webhooks and dashboard storage, which the previous text did not describe. Rewritten in the common format used for all our apps (roles, legal bases, rights, retention and how changes are announced)."
 ---
 ## 3. Information the app processes
@@ -13,9 +14,11 @@ settings, appearance settings, saved themes, custom styles and, optionally, a we
 Wix collections.
 
 **Votes (sent by visitors):** the chosen option(s) or ranking, a random token created in the visitor's browser and a
-**salted one-way hash** derived from the visitor's network (IP) address. The hash is salted with the poll's ID, is
-used only to stop the same person voting twice in the same poll and cannot be turned back into an address. **The
-network address itself is never stored.**
+**keyed one-way hash** of the visitor's network (IP) address and the poll's ID, made with a secret key that exists
+only on the app's server. It is used only to stop the same person voting twice in the same poll; without the key it
+cannot be recomputed or turned back into an address, and it cannot be matched across polls. **The network address
+itself is never stored.** Votes cast before 31 October 2026 carry the earlier unkeyed hash of the address and the
+poll's ID.
 
 **Members-only polls (if the site owner chooses this):** the app asks Wix whether the visitor is logged in as a
 site member and, if the site owner limits a poll to members with certain badges, which badges the member holds. To

@@ -48,7 +48,7 @@ to handle your request and its follow-up.
 ## 11. Security
 
 All traffic is encrypted (HTTPS). Owner-only actions are checked against the Wix login of the site's owner or its
-collaborators. Where an app has to recognise repeat submissions, it stores one-way hashes, not network addresses.
+collaborators. Where an app has to recognise repeat submissions, it stores one-way hashes made with a server-side secret key, never network addresses.
 Each feature collects only what it needs. If we learn of a security incident affecting your data, we inform Wix
 and the affected site owners without undue delay.
 
