@@ -1,7 +1,7 @@
 ---
 layout: privacy
 hub: true
-title: "Privacy Policy — all apps by Dmytro Bieliaiev"
+title: "Privacy Policy"
 updated: 31 October 2026
 changes:
   - "31 October 2026 — first version: the general policy for all our apps, with links to what each app handles."

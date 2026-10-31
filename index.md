@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Dmytro Bieliaiev — Apps for Wix"
+title: "All apps"
 ---
 # Apps for Wix by Dmytro Bieliaiev
 
