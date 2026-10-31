@@ -1,4 +1,4 @@
-{% if page.hub %}{% assign the_app = "each of our apps" %}{% else %}{% assign the_app = "the " | append: page.app | append: " app (\"the app\")" %}{% endif %}
+{% if page.hub %}{% assign the_app = "each of our apps" %}{% else %}{% assign the_app = 'the ' | append: page.app | append: ' app ("the app")' %}{% endif %}
 ## 1. Who we are
 
 This policy covers {{ the_app }} for Wix websites. The apps are made and operated by **Dmytro Bieliaiev**, an
